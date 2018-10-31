@@ -1,0 +1,68 @@
+body {
+  background: #bdc3c7;
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+}
+.card {
+  background: #f1fff1;                        /* White background */
+  padding: 30px;
+  width: 700px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+       /* Set the width */
+  margin: auto;
+  margin-bottom: 20px ;
+}
+.container {
+  margin: 0 auto;
+
+}
+
+h1 {
+  color: #be3737;
+  font-family: 'Baloo Bhaijaan', cursive;
+  text-align: center;
+}
+h3 {
+  color: #be3737;
+  font-family: 'Baloo Bhaijaan', cursive;
+  text-align: center;
+}
+
+p{
+  /* font-family: 'Dancing Script', cursive;*/
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+a {
+  color: #be3737;
+  text-align: center;
+  text-decoration-line: none;
+  font-size: 24px;
+}
+
+a:hover {
+  color:#6a0000;
+}
+
+th {
+  color:#be3737;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%
+}
+.text_center {
+  text-align: center;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  padding-left: 0px;
+}
